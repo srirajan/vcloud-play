@@ -1,0 +1,18 @@
+---
+vapps:
+  - name: 'at03'
+    vdc_name: '1732333'
+    catalog_name: 'Rackspace Catalog'
+    vapp_template_name: 'RHEL_6.5_Unmanaged'
+    vm:
+      hardware_config:
+        memory: 4096
+        cpu: 2
+      network_connections:
+      - name: 'ExNet-VCLOUD-APP-SER-VLAN1893'
+        allocation_mode: 'pool'
+      bootstrap:
+        script_path: 'bootstrap.erb'
+        script_post_processor: '/bin/bash'
+        vars:
+          message: There is no place like 127.0.0.1
