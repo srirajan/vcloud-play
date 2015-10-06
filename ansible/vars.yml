@@ -1,0 +1,11 @@
+---
+org_name: 1732333
+catalog_name: Rackspace Catalog
+vdc_name: 1732333
+org_network_name: ExNet-VCLOUD-APP-SER-VLAN1893
+vapp_tmpl_name: RHEL_6.5_Unmanaged
+vapp_name: sri101
+vapp_description: sri101
+vm_computer_name: sri101
+tmp_dir: ./tmp
+
