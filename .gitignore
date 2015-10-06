@@ -1,0 +1,8 @@
+.DS_Store
+*creds*
+ansible/inventory*
+ansible/group_vars/*
+ansible/pub_keys/*
+chef/data_bags/users
+local/*
+pkgs/*
